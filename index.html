@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بچوں کا پزل گیم - میچنگ گیم</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🧩 جانوروں کا میچنگ پزل 🧸</h1>
+        <p class="instructions">بائیں طرف کے جانور کو دائیں طرف کے درست نام سے ملائیں</p>
+        
+        <div class="score-board">
+            <span>✨ اسکور: <span id="score">0</span></span>
+            <span>⭐ کوششیں: <span id="attempts">0</span></span>
+        </div>
+
+        <div class="game-area">
+            <div class="animals-column" id="animals-column">
+                <!-- یہاں جانوروں کی تصاویر آئیں گی -->
+            </div>
+            <div class="names-column" id="names-column">
+                <!-- یہاں ناموں کے کارڈز آئیں گے -->
+            </div>
+        </div>
+
+        <button id="reset-btn">🔄 نیا گیم شروع کریں</button>
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
